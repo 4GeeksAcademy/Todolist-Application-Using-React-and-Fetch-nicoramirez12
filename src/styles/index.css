@@ -1,12 +1,54 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
 
-/* 
+body{
+    padding-top: 100px;
+    background-color: goldenrod;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+h1{
+   font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
 
-*/
+ul li{
+    border: 1px solid lightgrey;
+    list-style: none;
+    padding: 5px;
+    padding-left: 25px;
+    font-family: monospace;
+}
+
+input{
+    border: none; 
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+
+.icon{
+    display: none;
+    margin-top: 4px;
+    margin-right: 25px;
+    color: darkred;
+}
+
+.element:hover .icon{
+    display: inline-block;
+}
+
+.footer{
+    padding-left: 15px;
+    color: grey;
+    font-size:smaller;
+    border: none;
+}
+
+.icon:hover{
+    color: red;
+}
